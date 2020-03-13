@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAPILibrary", "GoogleAPILibrary\GoogleAPILibrary.csproj", "{C1B3F1C3-CA19-4DF3-AFE1-F2D13AE930FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAPIUI", "GoogleAPIUI\GoogleAPIUI.csproj", "{8CFDA099-CBBE-4419-82C3-1268A1102FA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B3F1C3-CA19-4DF3-AFE1-F2D13AE930FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B3F1C3-CA19-4DF3-AFE1-F2D13AE930FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B3F1C3-CA19-4DF3-AFE1-F2D13AE930FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B3F1C3-CA19-4DF3-AFE1-F2D13AE930FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFDA099-CBBE-4419-82C3-1268A1102FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFDA099-CBBE-4419-82C3-1268A1102FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFDA099-CBBE-4419-82C3-1268A1102FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFDA099-CBBE-4419-82C3-1268A1102FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C670815C-771F-4DED-90A6-0D0C4A8053F3}
+	EndGlobalSection
+EndGlobal
