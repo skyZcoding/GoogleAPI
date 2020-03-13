@@ -128,7 +128,7 @@ namespace GoogleAPILibrary
         {
             foreach (MailFile file in files)
             {
-                File.WriteAllBytes(Path.Combine(config.NewFilesPath, file.Filename), file.Data);
+                File.WriteAllBytes(Path.Combine(config.NewFilesPath, file.Filename.Replace("/", "")), file.Data);
             }
         }
     }
