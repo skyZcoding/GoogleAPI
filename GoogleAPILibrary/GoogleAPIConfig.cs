@@ -16,29 +16,29 @@ namespace GoogleAPILibrary
         /// <summary>
         /// Dient als Benutzername um auf die API zuzugreifen
         /// </summary>
-        public string ClientId { get; private set; }
+        internal string ClientId { get; set; }
 
         /// <summary>
         /// Dient als Kennwort um auf die API zuzugreifen
         /// </summary>
-        public string ClientSecret { get; private set; }
+        internal string ClientSecret { get; set; }
 
         /// <summary>
         /// Such die Mails nach den festgelegten begriefen durch
         /// Sprich man muss zuerst das Stichwort angeben z.B. subject und dann ein : und dann der Suchbegriff
         /// Das ein Bespiel würde wie folgt aussehen subject: test
         /// </summary>
-        public string Query { get; private set; }
+        internal string Query { get; set; }
 
         /// <summary>
         /// Der Pfad, wo die Dateien aus dem Email gespeichert werden
         /// </summary>
-        public string NewFilesPath { get; private set; }
+        internal string NewFilesPath { get; set; }
 
         /// <summary>
         /// Die Email von dem Account, wo die Mails gelesen werden
         /// </summary>
-        public string Email { get; private set; }
+        internal string Email { get; set; }
 
         private GoogleAPIConfig()
         {
