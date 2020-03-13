@@ -46,7 +46,7 @@ namespace GoogleAPILibrary
             credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                 secrets,
                 Scopes,
-                config.Email,
+                "user",
                 CancellationToken.None,
                 new FileDataStore(credPath, true)).Result;  //Autorisiert den Account
 
